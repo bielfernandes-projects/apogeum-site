@@ -5,6 +5,15 @@ export const metadata: Metadata = {
   title: "Apogeum Digital | Sua Marca no Topo",
   description:
     "Sites institucionais de alta performance, codados do zero. Desenvolvimento web premium com foco em conversão e velocidade.",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+  },
+  manifest: "/site.webmanifest",
   openGraph: {
     title: "Apogeum Digital | Sua Marca no Topo",
     description:
