@@ -8,6 +8,7 @@ export const agencyData = {
   },
   nav: [
     { label: "Diferenciais", href: "#diferenciais" },
+    { label: "Portfólio", href: "#portfolio" },
     { label: "Processo", href: "#processo" },
     { label: "Contato", href: "#contato" },
   ],
@@ -56,6 +57,20 @@ export const agencyData = {
       title: "Lançamento",
       description:
         "Entregamos seu site voando, com domínio configurado e pronto para atrair novos clientes.",
+    },
+  ],
+  portfolio: [
+    {
+      title: "Clínica de Fisioterapia Premium",
+      description: "Landing page de alta conversão focada em agendamentos de avaliações via WhatsApp, com design clean e otimização de performance.",
+      image: "/images/portfolio/modelo-clinica-premium.png",
+      link: "https://modelo-clinica-premium.vercel.app/",
+    },
+    {
+      title: "Escola Infantil Tia Neuma",
+      description: "Site institucional alegre e acolhedor em tons pastéis, estruturado com carrossel de banners e foco estratégico na captação de novas matrículas.",
+      image: "/images/portfolio/escola-tia-neuma.png",
+      link: "https://www.escolatianeuma.com.br/",
     },
   ],
   ctaFinal: {

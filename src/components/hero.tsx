@@ -30,7 +30,7 @@ export function Hero() {
         <div className="mb-8 flex justify-center">
           <Badge variant="gold">{hero.badge}</Badge>
         </div>
-        <h1 className="text-5xl md:text-7xl font-extrabold leading-tight mb-6">
+        <h1 className="text-4xl md:text-7xl font-extrabold leading-tight mb-6">
           {headline}
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-12 leading-relaxed">
