@@ -1,37 +1,36 @@
 import { agencyData } from "@/data/agency";
+import { cn } from "@/lib/utils";
 
 export function Processo() {
+  const steps = agencyData.process;
+
   return (
-    <section id="processo" className="px-6 py-24 bg-secondary/30">
+    <section id="processo" className="px-6 py-16 bg-secondary/30">
       <div className="max-w-5xl mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center mb-10">
           <h2 className="text-3xl md:text-5xl font-extrabold mb-4">
             Como <span className="text-primary">funciona</span>
           </h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            Um processo simples e transparente até o lançamento do seu site
-          </p>
         </div>
-        <div className="flex flex-col gap-12">
-          {agencyData.process.map((item, index) => (
-            <div
-              key={item.step}
-              className="relative flex flex-col md:flex-row gap-6 md:gap-12 items-start"
-            >
-              <div className="flex-shrink-0 relative">
-                <span className="text-7xl md:text-9xl font-extrabold text-primary/10 select-none leading-none">
-                  {item.step}
-                </span>
+
+        <div className="relative">
+          {steps.map((item, index) => (
+            <div key={item.step} className="flex gap-6 md:gap-10">
+              <div className="flex flex-col items-center">
+                <div className="w-10 h-10 rounded-full bg-primary/20 border-2 border-primary flex items-center justify-center flex-shrink-0">
+                  <span className="text-sm font-bold text-primary">{item.step}</span>
+                </div>
+                {index < steps.length - 1 && (
+                  <div className="w-px flex-1 bg-primary/20 my-2" />
+                )}
               </div>
-              <div className="flex-1 pt-4 md:pt-6">
-                <h3 className="text-2xl md:text-3xl font-bold mb-3">{item.title}</h3>
-                <p className="text-muted-foreground text-lg leading-relaxed max-w-xl">
+
+              <div className={cn("pb-12", index === steps.length - 1 && "pb-0")}>
+                <h3 className="text-xl md:text-2xl font-bold mb-2">{item.title}</h3>
+                <p className="text-muted-foreground leading-relaxed max-w-xl">
                   {item.description}
                 </p>
               </div>
-              {index < agencyData.process.length - 1 && (
-                <div className="absolute left-8 md:left-16 top-20 bottom-0 w-px bg-border hidden md:block" />
-              )}
             </div>
           ))}
         </div>

@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-06-26T14:23:00-03:00",
+  "title": "Design System: Apogeum Digital",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Dourado Farol",
+        "canonical": "oklch(78% 0.15 85)",
+        "tonalRamp": ["oklch(30% 0.06 85)", "oklch(40% 0.08 85)", "oklch(50% 0.10 85)", "oklch(60% 0.12 85)", "oklch(70% 0.14 85)", "oklch(78% 0.15 85)", "oklch(85% 0.10 85)", "oklch(93% 0.05 85)"]
+      },
+      "neutral-bg": {
+        "role": "neutral",
+        "displayName": "Navy Abissal",
+        "canonical": "oklch(18% 0.04 260)",
+        "tonalRamp": ["oklch(8% 0.02 260)", "oklch(12% 0.03 260)", "oklch(18% 0.04 260)", "oklch(24% 0.04 260)", "oklch(30% 0.04 260)", "oklch(40% 0.03 260)", "oklch(55% 0.02 260)", "oklch(75% 0.01 260)"]
+      },
+      "neutral-fg": {
+        "role": "neutral",
+        "displayName": "Branco Farol",
+        "canonical": "oklch(96% 0.01 260)",
+        "tonalRamp": ["oklch(50% 0.01 260)", "oklch(60% 0.01 260)", "oklch(70% 0.01 260)", "oklch(80% 0.01 260)", "oklch(88% 0.01 260)", "oklch(96% 0.01 260)", "oklch(98% 0.005 260)", "oklch(100% 0 0)"]
+      },
+      "neutral-surface": {
+        "role": "neutral",
+        "displayName": "Navy Superfície",
+        "canonical": "oklch(24% 0.04 260)",
+        "tonalRamp": ["oklch(12% 0.03 260)", "oklch(18% 0.04 260)", "oklch(24% 0.04 260)", "oklch(30% 0.04 260)", "oklch(36% 0.03 260)", "oklch(42% 0.03 260)", "oklch(50% 0.02 260)", "oklch(60% 0.01 260)"]
+      },
+      "neutral-muted": {
+        "role": "neutral",
+        "displayName": "Cinza Névoa",
+        "canonical": "oklch(65% 0.02 260)",
+        "tonalRamp": []
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Apenas hero principal. letter-spacing mínimo -0.03em."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Títulos de seção. text-wrap: balance."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Parágrafos e descrições. Cap 65–75ch."
+      }
+    },
+    "shadows": [
+      { "name": "interactive-elevation", "value": "0 10px 15px -3px rgba(0,0,0,0.2)", "purpose": "Botão primário, hover de elementos acionáveis" },
+      { "name": "floating", "value": "0 10px 15px -3px rgba(0,0,0,0.3)", "purpose": "WhatsApp FAB, elementos fixos" }
+    ],
+    "motion": [
+      { "name": "ease-state", "value": "cubic-bezier(0.4, 0, 0.2, 1)", "purpose": "Easing padrão para transições de estado" },
+      { "name": "duration-state", "value": "200ms", "purpose": "Duração padrão para hover/focus" }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "xl", "value": "1280px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ação principal. Fundo dourado, texto navy escuro.",
+      "html": "<button class=\"ds-btn-primary\">Solicitar Orçamento</button>",
+      "css": ".ds-btn-primary { background: var(--primary, hsl(43, 74%, 66%)); color: var(--primary-foreground, hsl(222, 47%, 11%)); font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 500; height: 40px; padding: 8px 24px; border: none; border-radius: 8px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.2); cursor: pointer; transition: filter 200ms cubic-bezier(0.4, 0, 0.2, 1); white-space: nowrap; } .ds-btn-primary:hover { filter: brightness(1.1); } .ds-btn-primary:focus-visible { outline: 2px solid var(--ring, hsl(43, 74%, 66%)); outline-offset: 2px; }"
+    },
+    {
+      "name": "Primary Button (Large)",
+      "kind": "button",
+      "refersTo": "button-primary-lg",
+      "description": "CTA principal no hero e footer. Versão ampliada.",
+      "html": "<button class=\"ds-btn-primary-lg\">Quero meu orçamento</button>",
+      "css": ".ds-btn-primary-lg { background: var(--primary, hsl(43, 74%, 66%)); color: var(--primary-foreground, hsl(222, 47%, 11%)); font-family: 'Inter', sans-serif; font-size: 18px; font-weight: 500; height: 56px; padding: 16px 32px; border: none; border-radius: 8px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.2); cursor: pointer; transition: filter 200ms cubic-bezier(0.4, 0, 0.2, 1); white-space: nowrap; } .ds-btn-primary-lg:hover { filter: brightness(1.1); } .ds-btn-primary-lg:focus-visible { outline: 2px solid var(--ring, hsl(43, 74%, 66%)); outline-offset: 2px; }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Ação secundária. Borda sutil, sem fundo.",
+      "html": "<button class=\"ds-btn-outline\">Visualizar Projeto</button>",
+      "css": ".ds-btn-outline { background: transparent; color: var(--primary, hsl(43, 74%, 66%)); font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 500; height: 40px; padding: 8px 24px; border: 1px solid var(--border, hsl(217, 32%, 17%)); border-radius: 8px; cursor: pointer; transition: background 200ms cubic-bezier(0.4, 0, 0.2, 1), color 200ms cubic-bezier(0.4, 0, 0.2, 1); white-space: nowrap; } .ds-btn-outline:hover { background: var(--secondary, hsl(217, 32%, 17%)); color: var(--foreground, hsl(210, 40%, 98%)); } .ds-btn-outline:focus-visible { outline: 2px solid var(--ring, hsl(43, 74%, 66%)); outline-offset: 2px; }"
+    },
+    {
+      "name": "Card Default",
+      "kind": "card",
+      "refersTo": "card-default",
+      "description": "Container de conteúdo. Navy translúcido com borda sutil.",
+      "html": "<div class=\"ds-card\"><div class=\"ds-card-icon\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2\"/><rect x=\"9\" y=\"3\" width=\"6\" height=\"4\" rx=\"1\"/></svg></div><h3 class=\"ds-card-title\">Velocidade Absurda</h3><p class=\"ds-card-desc\">Cada milissegundo conta. Hospedamos em Edge Network para carregamento instantâneo.</p></div>",
+      "css": ".ds-card { background: hsla(217, 32%, 17%, 0.5); border: 1px solid var(--border, hsl(217, 32%, 17%)); border-radius: 8px; padding: 24px; transition: border-color 200ms cubic-bezier(0.4, 0, 0.2, 1); } .ds-card:hover { border-color: hsla(43, 74%, 66%, 0.3); } .ds-card-icon { width: 48px; height: 48px; border-radius: 8px; background: hsla(43, 74%, 66%, 0.1); display: flex; align-items: center; justify-content: center; margin-bottom: 8px; color: var(--primary, hsl(43, 74%, 66%)); } .ds-card-title { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 20px; font-weight: 700; color: var(--foreground, hsl(210, 40%, 98%)); margin: 0 0 8px 0; line-height: 1.25; } .ds-card-desc { font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 400; color: var(--muted-foreground, hsl(215, 20%, 65%)); line-height: 1.625; margin: 0; }"
+    },
+    {
+      "name": "Badge Gold",
+      "kind": "chip",
+      "refersTo": "badge-gold",
+      "description": "Badge de destaque com brilho dourado translúcido.",
+      "html": "<span class=\"ds-badge-gold\">DESENVOLVIMENTO WEB PREMIUM</span>",
+      "css": ".ds-badge-gold { display: inline-flex; align-items: center; border: 1px solid hsla(43, 74%, 66%, 0.3); background: hsla(43, 74%, 66%, 0.1); color: var(--primary, hsl(43, 74%, 66%)); font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 600; padding: 4px 12px; border-radius: 6px; white-space: nowrap; letter-spacing: 0.05em; }"
+    },
+    {
+      "name": "Navigation Link",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Link de navegação do header com underline animado.",
+      "html": "<nav><a class=\"ds-nav-link\" href=\"#\">Diferenciais</a><a class=\"ds-nav-link\" href=\"#\">Portfólio</a><a class=\"ds-nav-link\" href=\"#\">Processo</a><a class=\"ds-nav-link\" href=\"#\">Contato</a></nav>",
+      "css": ".ds-nav-link { position: relative; font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 500; color: var(--muted-foreground, hsl(215, 20%, 65%)); text-decoration: none; transition: color 200ms cubic-bezier(0.4, 0, 0.2, 1); cursor: pointer; } .ds-nav-link::after { content: ''; position: absolute; bottom: -4px; left: 0; width: 0; height: 2px; background: var(--primary, hsl(43, 74%, 66%)); transition: width 300ms cubic-bezier(0.4, 0, 0.2, 1); } .ds-nav-link:hover { color: var(--foreground, hsl(210, 40%, 98%)); } .ds-nav-link:hover::after { width: 100%; }"
+    },
+    {
+      "name": "WhatsApp FAB",
+      "kind": "custom",
+      "refersTo": "whatsapp-fab",
+      "description": "Botão flutuante de WhatsApp. Fundo dourado, ícone branco.",
+      "html": "<a class=\"ds-whatsapp-fab\" href=\"#\" aria-label=\"Fale conosco pelo WhatsApp\"><svg width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z\"/></svg></a>",
+      "css": ".ds-whatsapp-fab { position: fixed; bottom: 24px; right: 24px; width: 56px; height: 56px; border-radius: 50%; background: var(--primary, hsl(43, 74%, 66%)); color: var(--primary-foreground, hsl(222, 47%, 11%)); display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.3); transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1); cursor: pointer; z-index: 50; } .ds-whatsapp-fab:hover { transform: scale(1.05); box-shadow: 0 20px 25px -5px rgba(0,0,0,0.4); } .ds-whatsapp-fab:focus-visible { outline: 2px solid var(--ring, hsl(43, 74%, 66%)); outline-offset: 2px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "O Farol do Ápice",
+    "overview": "Como um farol no topo de um penhasco contra o oceano noturno — o design projeta um feixe de luz dourado sobre um fundo navy profundo. Não há enfeite. Cada elemento cumpre uma função: guiar, sinalizar, converter. A escuridão (bg navy) é o silêncio; o dourado (primary) é a palavra. O sistema rejeita explicitamente templates genéricos, aparência de IA, exageros decorativos e jargão visual.",
+    "keyCharacteristics": [
+      "Dark navy extenso com acento dourado cirúrgico",
+      "Tipografia de display forte e encorpada com body limpo e legível",
+      "Flat por padrão; profundidade via layering tonal, não sombra",
+      "Elementos interativos elevam-se com sombra + brilho sutis ao hover",
+      "Nada de gradients, glassmorphism, ilustrações sketchy ou cantos exagerados"
+    ],
+    "rules": [
+      { "name": "O Feixe Único", "body": "O dourado primário ocupa no máximo 10% de qualquer tela. Sua concentração define hierarquia; diluí-lo é silenciar o farol.", "section": "colors" },
+      { "name": "A Pirâmide de Peso", "body": "Hierarquia visual conduzida por peso tipográfico, não por cor ou decoração. Headings em Plus Jakarta Sans pesado; body em Inter claro.", "section": "typography" },
+      { "name": "A Lei do Layering", "body": "Se um elemento precisa de profundidade, mude seu tom de navy — não adicione sombra. Sombras são reservadas para 'este elemento é acionável'.", "section": "elevation" }
+    ],
+    "dos": [
+      "Usar navy abissal como bg dominante e dourado farol como acento cirúrgico (≤10%)",
+      "Usar Plus Jakarta Sans pesado para headings e Inter para body",
+      "Usar layering tonal para profundidade: bg → secondary/50 → secondary",
+      "Usar sombras apenas em elementos interativos",
+      "Manter cantos em 8px (rounded-lg) no máximo para cards e botões",
+      "Usar text-wrap: balance em h1–h3 e text-wrap: pretty em prosa longa",
+      "Limitar body text a 65–75ch de largura",
+      "Testar cada seção em viewport mobile primeiro"
+    ],
+    "donts": [
+      "Parecer template WordPress/Wix — cada elemento deve parecer artesanal e intencional",
+      "Usar gradients decorativos, glassmorphism, ou ghost cards (borda + sombra larga juntos)",
+      "Usar cantos exagerados (>12px em cards, >8px em botões)",
+      "Usar eyebrow label em toda seção — é marca registrada de site gerado por IA",
+      "Usar numeração de seção (01, 02, 03) a menos que seja uma sequência real",
+      "Usar ilustrações sketchy SVG ou feTurbulence",
+      "Usar gradient text (background-clip: text)",
+      "Animar propriedades de layout (width, height, top, left)",
+      "Esquecer prefers-reduced-motion",
+      "Deixar heading vazar do container em mobile"
+    ]
+  }
+}

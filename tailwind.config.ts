@@ -50,8 +50,8 @@ const config: Config = {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        heading: ["Plus Jakarta Sans", "sans-serif"],
-        body: ["Inter", "sans-serif"],
+        heading: ["var(--font-plus-jakarta)", "sans-serif"],
+        body: ["var(--font-inter)", "sans-serif"],
       },
     },
   },

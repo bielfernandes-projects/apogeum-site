@@ -14,9 +14,9 @@ export const agencyData = {
   ],
   hero: {
     badge: "DESENVOLVIMENTO WEB PREMIUM",
-    headline: "Velocidade e Autoridade para Colocar Sua Marca no Topo",
+    headline: "Velocidade e Autoridade\npara Colocar Sua Marca no Topo",
     subheadline:
-      "Fugimos de templates lentos. Construímos sites institucionais de alta performance, codados do zero, focados em conversão e segurança absoluta.",
+      "Sites institucionais de alta performance, codados do zero. Foco em conversão e segurança absoluta.",
     ctaText: "Solicitar Orçamento",
   },
   diferenciais: [

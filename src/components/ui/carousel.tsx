@@ -37,10 +37,21 @@ const Carousel = React.forwardRef<
     opts?: CarouselOptions
     autoplay?: boolean
     autoplaySpeed?: number
+    setApi?: (api: CarouselApi) => void
   }
->(({ opts, autoplay: enableAutoplay, autoplaySpeed = 4000, className, children, ...props }, ref) => {
-  const plugins = enableAutoplay
-    ? [Autoplay({ delay: autoplaySpeed, stopOnInteraction: false })]
+>(({ opts, autoplay: enableAutoplay, autoplaySpeed = 4000, setApi, className, children, ...props }, ref) => {
+  const [reducedMotion, setReducedMotion] = React.useState(false)
+
+  React.useEffect(() => {
+    const mq = window.matchMedia("(prefers-reduced-motion: reduce)")
+    setReducedMotion(mq.matches)
+    const handler = (e: MediaQueryListEvent) => setReducedMotion(e.matches)
+    mq.addEventListener("change", handler)
+    return () => mq.removeEventListener("change", handler)
+  }, [])
+
+  const plugins = enableAutoplay && !reducedMotion
+    ? [Autoplay({ delay: autoplaySpeed, stopOnInteraction: true })]
     : []
   const [carouselRef, api] = useEmblaCarousel({ loop: true, ...opts }, plugins)
   const [canScrollPrev, setCanScrollPrev] = React.useState(false)
@@ -57,13 +68,14 @@ const Carousel = React.forwardRef<
 
   React.useEffect(() => {
     if (!api) return
+    setApi?.(api)
     onSelect(api)
     api.on("reInit", onSelect)
     api.on("select", onSelect)
     return () => {
       api?.off("select", onSelect)
     }
-  }, [api, onSelect])
+  }, [api, onSelect, setApi])
 
   return (
     <CarouselContext.Provider
@@ -149,3 +161,4 @@ const CarouselNext = React.forwardRef<HTMLButtonElement, React.ComponentProps<ty
 CarouselNext.displayName = "CarouselNext"
 
 export { Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext }
+export type { CarouselApi }
