@@ -63,26 +63,26 @@ export const agencyData = {
     {
       title: "Escola Infantil Tia Neuma",
       description: "Site institucional alegre e acolhedor em tons pastéis, estruturado com carrossel automático de banners e foco estratégico na captação de novas matrículas.",
-      image: "https://api.microlink.io/?url=https://www.escolatianeuma.com.br&screenshot=true&meta=false&embed=screenshot.url",
-      link: "https://www.escolatianeuma.com.br"
+      image: "https://api.microlink.io/?url=https://escolatianeuma.com.br&screenshot=true&meta=false&embed=screenshot.url",
+      link: "https://escolatianeuma.com.br"
     },
     {
       title: "Qual o Tom App",
       description: "Plataforma interativa e de alta performance para músicos com ferramentas de Campo Harmônico, Dicionário de Acordes e Progressões.",
-      image: "https://api.microlink.io/?url=https://www.qualotom.com.br&screenshot=true&meta=false&embed=screenshot.url",
-      link: "https://www.qualotom.com.br"
+      image: "https://api.microlink.io/?url=https://qualotom.com.br&screenshot=true&meta=false&embed=screenshot.url",
+      link: "https://qualotom.com.br"
     },
     {
       title: "Tarcila Costa | Psicóloga",
       description: "Landing page minimalista e editorial focada em captação de pacientes particulares, transmitindo ética, acolhimento e autoridade clínica.",
-      image: "https://api.microlink.io/?url=https://www.tarcilacostapsi.vercel.app&screenshot=true&meta=false&embed=screenshot.url",
-      link: "https://www.tarcilacostapsi.vercel.app"
+      image: "https://api.microlink.io/?url=https://tarcilacostapsi.vercel.app&screenshot=true&meta=false&embed=screenshot.url",
+      link: "https://tarcilacostapsi.vercel.app"
     },
     {
       title: "Believe Calistenia",
       description: "Landing page robusta e dinâmica voltada para conversão de alunos de Calistenia em Fortaleza, destacando a comunidade e cronograma de treinos.",
-      image: "https://api.microlink.io/?url=https://www.believecalistenia.vercel.app&screenshot=true&meta=false&embed=screenshot.url",
-      link: "https://www.believecalistenia.vercel.app"
+      image: "https://api.microlink.io/?url=https://believecalistenia.vercel.app&screenshot=true&meta=false&embed=screenshot.url",
+      link: "https://believecalistenia.vercel.app"
     }
   ],
   ctaFinal: {
