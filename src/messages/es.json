@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "title": "Apogeum Digital | Tu Marca en la Cima",
+    "description": "Sitios institucionales de alto rendimiento, codificados desde cero. Desarrollo web premium enfocado en conversión y velocidad."
+  },
+  "nav": {
+    "diferenciais": "Destacados",
+    "portfolio": "Portafolio",
+    "processo": "Proceso",
+    "contato": "Contacto"
+  },
+  "common": {
+    "fazerOrcamento": "Pedir Cotización",
+    "orcamentoAviso": "Cotización sin compromiso • Respuesta en hasta 24h",
+    "visualizarProjeto": "Ver Proyecto en Vivo",
+    "faleConosco": "Habla con nosotros",
+    "faleConoscoWhatsapp": "Habla con nosotros por WhatsApp",
+    "slogan": "Tu Marca en la Cima.",
+    "copyright": "Todos los derechos reservados.",
+    "irParaProjeto": "Ir al proyecto {n}",
+    "abrirMenu": "Abrir menú",
+    "fecharMenu": "Cerrar menú"
+  },
+  "whatsapp": {
+    "msgCta": "¡Hola! Conocí Apogeum Digital a través del sitio web y me gustaría solicitar una cotización exclusiva para mi negocio."
+  },
+  "hero": {
+    "badge": "DESARROLLO WEB PREMIUM",
+    "headline": "<highlight>Velocidad</highlight> y <highlight>Autoridad</highlight><br></br>para Llevar Tu Marca a la <highlight>Cima</highlight>",
+    "subheadline": "Sitios institucionales de alto rendimiento, codificados desde cero. Enfocados en conversión y seguridad total.",
+    "ctaText": "Solicitar Cotización"
+  },
+  "diferenciais": {
+    "title": "¿Por qué no usamos <highlight>plantillas genéricas</highlight>?",
+    "items": {
+      "codigoProprio": {
+        "title": "Código Propio y Exclusivo",
+        "description": "Olvídate de WordPress o Wix. Desarrollamos desde cero con tecnologías modernas, asegurando que tu marca tenga una presencia digital única y blindada contra fallas."
+      },
+      "velocidade": {
+        "title": "Velocidad Absurda",
+        "description": "Cada milisegundo cuenta. Hospedamos tu sitio en infraestructura global (Edge Network) para carga instantánea en 3G/4G, reteniendo más clientes."
+      },
+      "conversao": {
+        "title": "Enfoque en Conversión",
+        "description": "Diseño planificado con disparadores mentales y usabilidad enfocada en transformar visitantes comunes en clientes en tu WhatsApp."
+      }
+    }
+  },
+  "processo": {
+    "title": "Cómo <highlight>funciona</highlight>",
+    "items": {
+      "alinhamento": {
+        "title": "Alineación",
+        "description": "Entendemos la esencia de tu negocio y definimos la estructura ideal para tu presencia digital."
+      },
+      "desenvolvimento": {
+        "title": "Desarrollo",
+        "description": "Codificamos tu sitio con diseño exclusivo, rendimiento extremo y enfoque total en conversión."
+      },
+      "lancamento": {
+        "title": "Lanzamiento",
+        "description": "Entregamos tu sitio volando, con dominio configurado y listo para atraer nuevos clientes."
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Un poco de nuestro <highlight>Portafolio</highlight>",
+    "items": {
+      "escolaNeuma": {
+        "title": "Escola Infantil Tia Neuma",
+        "description": "Sitio institucional alegre y acogedor en tonos pastel, estructurado con carrusel automático de banners y enfoque estratégico en la captación de nuevas matrículas."
+      },
+      "qualOTom": {
+        "title": "Qual o Tom App",
+        "description": "Plataforma interactiva y de alto rendimiento para músicos con herramientas de Campo Harmónico, Diccionario de Acordes y Progresiones."
+      },
+      "tarcilaCosta": {
+        "title": "Tarcila Costa | Psicóloga",
+        "description": "Landing page minimalista y editorial enfocada en la captación de pacientes particulares, transmitiendo ética, acogida y autoridad clínica."
+      },
+      "believeCalistenia": {
+        "title": "Believe Calistenia",
+        "description": "Landing page robusta y dinámica dirigida a la conversión de alumnos de Calistenia en Fortaleza, destacando la comunidad y el cronograma de entrenamientos."
+      }
+    }
+  },
+  "ctaFinal": {
+    "headline": "¿Listo para elevar el nivel de tu empresa?",
+    "subheadline": "Solicita una cotización exclusiva y descubre cómo podemos transformar tu presencia digital.",
+    "ctaText": "Quiero mi cotización"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "title": "Apogeum Digital | Your Brand at the Top",
+    "description": "High-performance institutional websites, coded from scratch. Premium web development focused on conversion and speed."
+  },
+  "nav": {
+    "diferenciais": "Highlights",
+    "portfolio": "Portfolio",
+    "processo": "Process",
+    "contato": "Contact"
+  },
+  "common": {
+    "fazerOrcamento": "Get a Quote",
+    "orcamentoAviso": "No-commitment quote • Reply within 24h",
+    "visualizarProjeto": "View Live Project",
+    "faleConosco": "Talk to us",
+    "faleConoscoWhatsapp": "Talk to us on WhatsApp",
+    "slogan": "Your Brand at the Top.",
+    "copyright": "All rights reserved.",
+    "irParaProjeto": "Go to project {n}",
+    "abrirMenu": "Open menu",
+    "fecharMenu": "Close menu"
+  },
+  "whatsapp": {
+    "msgCta": "Hi! I found Apogeum Digital through your website and would like to request a custom quote for my business."
+  },
+  "hero": {
+    "badge": "PREMIUM WEB DEVELOPMENT",
+    "headline": "<highlight>Speed</highlight> and <highlight>Authority</highlight><br></br>to Put Your Brand at the <highlight>Top</highlight>",
+    "subheadline": "High-performance institutional websites, coded from scratch. Focused on conversion and absolute security.",
+    "ctaText": "Request a Quote"
+  },
+  "diferenciais": {
+    "title": "Why we don't use <highlight>generic templates</highlight>?",
+    "items": {
+      "codigoProprio": {
+        "title": "Custom and Exclusive Code",
+        "description": "Forget WordPress or Wix. We build from scratch with modern technologies, ensuring your brand has a unique digital presence that's shielded from failures."
+      },
+      "velocidade": {
+        "title": "Insane Speed",
+        "description": "Every millisecond counts. We host your site on a global infrastructure (Edge Network) for instant loading on 3G/4G, retaining more customers."
+      },
+      "conversao": {
+        "title": "Conversion-Focused",
+        "description": "Design built with mental triggers and usability aimed at turning ordinary visitors into customers on your WhatsApp."
+      }
+    }
+  },
+  "processo": {
+    "title": "How it <highlight>works</highlight>",
+    "items": {
+      "alinhamento": {
+        "title": "Alignment",
+        "description": "We understand the essence of your business and define the ideal structure for your digital presence."
+      },
+      "desenvolvimento": {
+        "title": "Development",
+        "description": "We code your site with exclusive design, extreme performance, and a total focus on conversion."
+      },
+      "lancamento": {
+        "title": "Launch",
+        "description": "We deliver your site flying, with domain configured and ready to attract new customers."
+      }
+    }
+  },
+  "portfolio": {
+    "title": "A glimpse of our <highlight>Portfolio</highlight>",
+    "items": {
+      "escolaNeuma": {
+        "title": "Escola Infantil Tia Neuma",
+        "description": "Cheerful and welcoming institutional site in pastel tones, structured with an automatic banner carousel and a strategic focus on capturing new enrollments."
+      },
+      "qualOTom": {
+        "title": "Qual o Tom App",
+        "description": "Interactive high-performance platform for musicians featuring Harmonic Field, Chord Dictionary, and Progressions tools."
+      },
+      "tarcilaCosta": {
+        "title": "Tarcila Costa | Psychologist",
+        "description": "Minimalist and editorial landing page focused on attracting private patients, conveying ethics, care, and clinical authority."
+      },
+      "believeCalistenia": {
+        "title": "Believe Calistenia",
+        "description": "Robust and dynamic landing page aimed at converting Calisthenics students in Fortaleza, highlighting the community and training schedule."
+      }
+    }
+  },
+  "ctaFinal": {
+    "headline": "Ready to take your business to the next level?",
+    "subheadline": "Request a custom quote and discover how we can transform your digital presence.",
+    "ctaText": "I want my quote"
+  }
+}

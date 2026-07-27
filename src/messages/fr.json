@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "title": "Apogeum Digital | Votre Marque au Sommet",
+    "description": "Sites institutionnels haute performance, codés de zéro. Développement web premium axé sur la conversion et la rapidité."
+  },
+  "nav": {
+    "diferenciais": "Points forts",
+    "portfolio": "Portfolio",
+    "processo": "Processus",
+    "contato": "Contact"
+  },
+  "common": {
+    "fazerOrcamento": "Demander un Devis",
+    "orcamentoAviso": "Devis sans engagement • Réponse sous 24h",
+    "visualizarProjeto": "Voir le Projet en Ligne",
+    "faleConosco": "Parlez-nous",
+    "faleConoscoWhatsapp": "Contactez-nous sur WhatsApp",
+    "slogan": "Votre Marque au Sommet.",
+    "copyright": "Tous droits réservés.",
+    "irParaProjeto": "Aller au projet {n}",
+    "abrirMenu": "Ouvrir le menu",
+    "fecharMenu": "Fermer le menu"
+  },
+  "whatsapp": {
+    "msgCta": "Bonjour ! J'ai découvert Apogeum Digital via votre site et j'aimerais demander un devis personnalisé pour mon entreprise."
+  },
+  "hero": {
+    "badge": "DÉVELOPPEMENT WEB PREMIUM",
+    "headline": "<highlight>Vitesse</highlight> et <highlight>Autorité</highlight><br></br>pour Propulser Votre Marque au <highlight>Sommet</highlight>",
+    "subheadline": "Sites institutionnels haute performance, codés de zéro. Axés sur la conversion et une sécurité totale.",
+    "ctaText": "Demander un Devis"
+  },
+  "diferenciais": {
+    "title": "Pourquoi nous n'utilisons pas de <highlight>modèles génériques</highlight> ?",
+    "items": {
+      "codigoProprio": {
+        "title": "Code Propre et Exclusif",
+        "description": "Oubliez WordPress ou Wix. Nous développons de zéro avec des technologies modernes, garantissant à votre marque une présence numérique unique et blindée contre les pannes."
+      },
+      "velocidade": {
+        "title": "Vitesse Folle",
+        "description": "Chaque milliseconde compte. Nous hébergeons votre site sur une infrastructure globale (Edge Network) pour un chargement instantané en 3G/4G, retenant plus de clients."
+      },
+      "conversao": {
+        "title": "Axé sur la Conversion",
+        "description": "Design pensé avec des déclencheurs mentaux et une ergonomie visant à transformer les visiteurs ordinaires en clients sur votre WhatsApp."
+      }
+    }
+  },
+  "processo": {
+    "title": "Comment ça <highlight>fonctionne</highlight>",
+    "items": {
+      "alinhamento": {
+        "title": "Alignement",
+        "description": "Nous comprenons l'essence de votre entreprise et définissons la structure idéale pour votre présence numérique."
+      },
+      "desenvolvimento": {
+        "title": "Développement",
+        "description": "Nous codons votre site avec un design exclusif, des performances extrêmes et un focus total sur la conversion."
+      },
+      "lancamento": {
+        "title": "Lancement",
+        "description": "Nous livrons votre site volant, avec un domaine configuré et prêt à attirer de nouveaux clients."
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Un aperçu de notre <highlight>Portfolio</highlight>",
+    "items": {
+      "escolaNeuma": {
+        "title": "Escola Infantil Tia Neuma",
+        "description": "Site institutionnel joyeux et accueillant aux tons pastel, structuré avec un carrousel automatique de bannières et un focus stratégique sur la captation de nouvelles inscriptions."
+      },
+      "qualOTom": {
+        "title": "Qual o Tom App",
+        "description": "Plateforme interactive et haute performance pour les musiciens avec des outils de Champ Harmonique, Dictionnaire d'Accords et Progressions."
+      },
+      "tarcilaCosta": {
+        "title": "Tarcila Costa | Psychologue",
+        "description": "Landing page minimaliste et éditoriale axée sur la captation de patients privés, transmettant éthique, accueil et autorité clinique."
+      },
+      "believeCalistenia": {
+        "title": "Believe Calistenia",
+        "description": "Landing page robuste et dynamique visant la conversion d'élèves de Calisthenie à Fortaleza, mettant en avant la communauté et le programme d'entraînements."
+      }
+    }
+  },
+  "ctaFinal": {
+    "headline": "Prêt à élever le niveau de votre entreprise ?",
+    "subheadline": "Demandez un devis personnalisé et découvrez comment nous pouvons transformer votre présence numérique.",
+    "ctaText": "Je veux mon devis"
+  }
+}

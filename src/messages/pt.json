@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "title": "Apogeum Digital | Sua Marca no Topo",
+    "description": "Sites institucionais de alta performance, codados do zero. Desenvolvimento web premium com foco em conversão e velocidade."
+  },
+  "nav": {
+    "diferenciais": "Diferenciais",
+    "portfolio": "Portfólio",
+    "processo": "Processo",
+    "contato": "Contato"
+  },
+  "common": {
+    "fazerOrcamento": "Fazer Orçamento",
+    "orcamentoAviso": "Orçamento sem compromisso • Resposta em até 24h",
+    "visualizarProjeto": "Visualizar Projeto Ao Vivo",
+    "faleConosco": "Fale conosco",
+    "faleConoscoWhatsapp": "Fale conosco pelo WhatsApp",
+    "slogan": "Sua Marca no Topo.",
+    "copyright": "Todos os direitos reservados.",
+    "irParaProjeto": "Ir para projeto {n}",
+    "abrirMenu": "Abrir menu",
+    "fecharMenu": "Fechar menu"
+  },
+  "whatsapp": {
+    "msgCta": "Olá! Conheci a Apogeum Digital através do site e gostaria de solicitar um orçamento exclusivo para o meu negócio."
+  },
+  "hero": {
+    "badge": "DESENVOLVIMENTO WEB PREMIUM",
+    "headline": "<highlight>Velocidade</highlight> e <highlight>Autoridade</highlight><br></br>para Colocar Sua Marca no <highlight>Topo</highlight>",
+    "subheadline": "Sites institucionais de alta performance, codados do zero. Foco em conversão e segurança absoluta.",
+    "ctaText": "Solicitar Orçamento"
+  },
+  "diferenciais": {
+    "title": "Por que não usamos <highlight>templates genéricos</highlight>?",
+    "items": {
+      "codigoProprio": {
+        "title": "Código Próprio e Exclusivo",
+        "description": "Esqueça o WordPress ou Wix. Desenvolvemos do zero com tecnologias modernas, garantindo que sua marca tenha uma presença digital única e blindada contra falhas."
+      },
+      "velocidade": {
+        "title": "Velocidade Absurda",
+        "description": "Cada milissegundo conta. Hospedamos seu site em infraestrutura global (Edge Network) para carregamento instantâneo no 3G/4G, retendo mais clientes."
+      },
+      "conversao": {
+        "title": "Foco em Conversão",
+        "description": "Design planejado com gatilhos mentais e usabilidade focada em transformar visitantes comuns em clientes no seu WhatsApp."
+      }
+    }
+  },
+  "processo": {
+    "title": "Como <highlight>funciona</highlight>",
+    "items": {
+      "alinhamento": {
+        "title": "Alinhamento",
+        "description": "Entendemos a essência do seu negócio e definimos a estrutura ideal para sua presença digital."
+      },
+      "desenvolvimento": {
+        "title": "Desenvolvimento",
+        "description": "Codamos seu site com design exclusivo, performance extrema e foco total em conversão."
+      },
+      "lancamento": {
+        "title": "Lançamento",
+        "description": "Entregamos seu site voando, com domínio configurado e pronto para atrair novos clientes."
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Um pouco do nosso <highlight>Portfólio</highlight>",
+    "items": {
+      "escolaNeuma": {
+        "title": "Escola Infantil Tia Neuma",
+        "description": "Site institucional alegre e acolhedor em tons pastéis, estruturado com carrossel automático de banners e foco estratégico na captação de novas matrículas."
+      },
+      "qualOTom": {
+        "title": "Qual o Tom App",
+        "description": "Plataforma interativa e de alta performance para músicos com ferramentas de Campo Harmônico, Dicionário de Acordes e Progressões."
+      },
+      "tarcilaCosta": {
+        "title": "Tarcila Costa | Psicóloga",
+        "description": "Landing page minimalista e editorial focada em captação de pacientes particulares, transmitindo ética, acolhimento e autoridade clínica."
+      },
+      "believeCalistenia": {
+        "title": "Believe Calistenia",
+        "description": "Landing page robusta e dinâmica voltada para conversão de alunos de Calistenia em Fortaleza, destacando a comunidade e cronograma de treinos."
+      }
+    }
+  },
+  "ctaFinal": {
+    "headline": "Pronto para elevar o nível da sua empresa?",
+    "subheadline": "Solicite um orçamento exclusivo e descubra como podemos transformar sua presença digital.",
+    "ctaText": "Quero meu orçamento"
+  }
+}
